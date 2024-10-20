@@ -891,6 +891,7 @@ PRODUCT_PACKAGES += \
     libdeflicker \
     libdisplayconfig.qti \
     libdlbdsservice \
+    libdlbpreg \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
@@ -953,6 +954,7 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libsnpe_dsp_domains_v2 \
     libsnpe_dsp_domains_v3 \
+    libspatializerparamstorage \
     libssccalapi@2.0 \
     libsupermoon \
     libswregistrationalgo \
@@ -973,6 +975,8 @@ PRODUCT_PACKAGES += \
     libxmi_high_dynamic_range \
     libxmi_slow_motion_mein \
     libxmi_slow_motion_triger \
+    libdlbvol \
+    libswspatializer \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
