@@ -420,6 +420,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/displayconfig/display_id_4630946370515662721.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946370515662721.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/displayconfig/display_id_4630946480857061761.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946480857061761.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
+    vendor/xiaomi/marble/proprietary/vendor/etc/init/init.mfp-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mfp-daemon.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/marble/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -757,6 +758,7 @@ PRODUCT_PACKAGES += \
     camx.provider@2.5-legacy \
     camx.provider@2.6-legacy \
     camx.provider@2.7-legacy \
+    com.fingerprints.extension@3.0 \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
@@ -805,8 +807,8 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     camera.xiaomi \
     com.qti.chi.override \
-    fingerprint.fpc.default \
-    fingerprint.goodix.default \
+    fingerprint.fpc \
+    fingerprint.goodix \
     vendor.xiaomi.hardware.quickcamera@1.0-impl \
     libAF \
     libMiMotion \
@@ -1035,7 +1037,9 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_res_headphone_bin \
     vendor_lib_rfsa_adsp_misound_res_spk_bin \
     vendor_lib_rfsa_adsp_misound_res_spk4ch_bin \
+    AHBF@2.1-service.xml \
     vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
     batterysecret \
+    mfp-daemon \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.xiaomi.hardware.quickcamera@1.0-service
